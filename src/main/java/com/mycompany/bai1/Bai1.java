@@ -27,6 +27,7 @@ public class Bai1 extends Frame implements ActionListener {
         Button b1 = new Button("cong");
         Button b2 = new Button("tru");
         Button b3 = new Button("X");
+        Button b4 = new Button("/");
         
         
         f.add(t1);
@@ -38,6 +39,7 @@ public class Bai1 extends Frame implements ActionListener {
         f.add(b1);
         f.add(b2);
         f.add(b3);
+        f.add(b4);
         
         f.setLayout(new GridLayout(5,2));
         f.setVisible(true);    
